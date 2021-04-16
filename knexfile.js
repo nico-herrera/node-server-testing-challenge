@@ -10,6 +10,9 @@ module.exports = {
     },
     seeds: {
       directory: './data/seeds'
+    },
+    connection: {
+      filename: './data/users.db3'
     }
   },
 
@@ -21,6 +24,9 @@ module.exports = {
     },
     seeds: {
       directory: './data/seeds'
+    },
+    connection: {
+      filename: './data/test.db3'
     }
   }
 
